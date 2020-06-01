@@ -18,7 +18,8 @@ About: Exercicio 1 - Lista 3 (ROOT)
 void exercicio1()
     {
        // Function
-        TF1 * f1 = new TF1("f1","sin(x)/x",0,10);
+        //TF1 * f1 = new TF1("f1","[0]sin([1]*x)/x",0,10);
+        TF1 * f1 = new TF1("f1","[0]*sin([1]*x)/x",0.,10.);
         //Seting Parameters
        f1->SetParameters(2,1);
         // Line Blue
